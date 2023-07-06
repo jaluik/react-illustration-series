@@ -9,7 +9,7 @@ export default defineConfig({
   base: ghPagePublicPath,
   favicons: [`${ghPagePublicPath}km@2x.png`],
   scripts: [
-    {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4941429999466589" ,crossorigin:"anonymous", async: true},
+  
 
   ],
   themeConfig: {
