@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 const isProd = process.env.NODE_ENV !== 'development';
-const ghPagePublicPath = isProd ? '/' : '/';
+const ghPagePublicPath = isProd ? './' : '/';
 
 
 export default defineConfig({
